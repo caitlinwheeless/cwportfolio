@@ -1,0 +1,108 @@
+
+<!Doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caitlin Wheeless Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css_caitlin.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="hometitle"><a href="caitlin.html">Caitlin Wheeless</a></div>
+        <div class="jobtitle"><a href="caitlin.html">Technical Writer</a></div>
+    </header>
+    <nav>
+        <div class="navwrap">
+            <div><a href="resume.html">CV</a></div>
+            <div class="dd-link"><span class="dd-arrow">Portfolio</span>
+                <div class="dd-p">
+                    <div>
+                        <ul>
+                            <li><a href="basic.html">Basic User</a></li>
+                            <li><a href="advanced.html">Advanced User</a></li>
+                            <li><a href="restructure.html">Content Structures</a></li>
+                            <li><a href="visual.html">Visual Aids</a></li>
+                            <li><a href="misc.html">Miscellaneous</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div><a href="about.html">About</a></div>
+        </div>
+    </nav>
+    <main>
+        <article>
+
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Create a Port</div>
+                    <div class="intro-text">
+                        <p>For most users, creating a port is the first step towards using the PacketFabric NaaS platform.</p>
+                        <p><b>TOOLS:</b> Markdown, Hugo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="port_caitlin" class="iframe_wrap">
+                
+                <iframe class="myiframe" src="https://docs.packetfabric.com/ports/create/port/"></iframe>
+            
+            </div>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Create a Google Cloud Access Key</div>
+                    <div class="intro-text">
+                        <p>This procedure requires the user to switch back and forth between the PacketFabric portal and the Google Cloud Platform portal.</p>
+                        <p><b>TOOLS:</b> Markdown, Hugo, Techsmith Snagit</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div id="gcpkeys_caitlin" class="iframe_wrap">
+                
+                <iframe class="myiframe" src="https://docs.packetfabric.com/cloud/google/hosted/key/"></iframe>
+            
+            </div>
+            
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Keyword Search Rules</div>
+                    <div class="intro-text">
+                        <p>When I assumed responsibility for the search functionality, we had upwards of 100 support tickets from confused users. After a lot of writing, rewriting, and reorganizing, I brought that number down to 2-3/year.</p>
+                        <p>I focused my efforts on the Search Reference section, and this page proved particularly helpful to users.</p>
+                        <p>See it in context: <a href="https://support.ptc.com/help/windchill/wc111_hc/whc_en/#page/Windchill_Help_Center%2FLclSearchKeywordWithoutIndexing.html%23" target="_blank">Keyword Search Rules</a></p>
+                        <p><b>TOOLS:</b> Arbortext DITA, PowerPoint</p>
+                    </div>
+                </div>
+            </div> 
+
+            <div id="keywordsearch"></div>
+           
+            
+        </article>
+    </main>
+
+</body>
+
+<script>
+
+
+PDFObject.embed("pdf/keywords.pdf", "#keywordsearch");
+
+</script>
+
+</html>

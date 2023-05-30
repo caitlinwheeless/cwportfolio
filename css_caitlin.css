@@ -1,0 +1,264 @@
+body {
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    background-color: #FCFBFB;
+    margin: 0;
+}
+
+article {
+    max-width: 1500px;
+    width: 80%;
+    margin: 3em auto;
+}
+
+a:hover {
+    color: #0DD0CC 
+}
+
+p a {
+    color: #0DD0CC;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline
+}
+
+.here {
+    box-shadow: inset 0px -3px 0px 0px #0DD0CC;
+}
+
+/*---------Header--------------------*/
+
+header {
+    background-image: url("images/header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    background-size: cover;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding: .4em;
+}
+
+.hometitle {
+    font-size: 3em;
+    color: white;
+}
+
+.jobtitle {
+    font-size: 2.5em;
+    color: white;
+}
+
+.hometitle a, .jobtitle a {
+    width: 100%;
+    display: inline-block;
+}
+
+@media (min-width: 550px) {
+    .hometitle {
+        font-size: 4em;
+    }
+    header {
+        height: 170px;
+    }
+}
+
+
+/*----------drop-down menu--------------------*/
+
+nav {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.navwrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.navwrap div {
+    position: relative;
+}
+
+.hometitle a, nav a, .jobtitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dd-link {
+    cursor: pointer;
+    height: 60px
+}
+
+.dd-arrow::after {
+    content: "";
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navwrap div.dd-p {
+    min-width: 10em;
+    border: 1px solid black;
+    list-style: none;
+    margin: 0;
+    font-size: 87.5%;
+    max-height: 26.5em;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    z-index: 999;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    margin-top: .25em !important;
+    background: white;
+}
+
+.dd-p ul {
+    list-style-type: none;
+    padding: .5em 1.5em;
+    margin: 0;
+}
+
+.dd-p ul li {
+    display: block;
+    margin: .75em 0 1em;
+    white-space: nowrap;
+}
+
+.dd-p ul li a:hover {
+    text-decoration: underline;
+}
+
+.dd-p {
+    opacity: 0;
+    display: none;
+}
+
+.dd-link:hover .dd-p, .dd-p:hover {
+	opacity: 1;
+    transition: opacity 0.5s;
+    display: block;
+}
+
+/*----------iFrames and PDFs--------------------*/
+
+
+.myiframe {
+    width: 100%;
+    height: 50rem; 
+    max-width: 1200px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.iframe_wrap {
+    text-align: center;
+}
+
+.pdfobject-container {
+    height: 50rem; 
+    max-width: 1200px;
+    border: 1rem solid rgba(0,0,0,.1); 
+    margin: 2em auto;
+    text-align: center;
+}
+
+
+/*----------Intro--------------------*/
+
+.intro-title {
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+.intro {
+    padding: 2em;
+    margin: 3em auto .5em;
+}
+
+
+/*----------About--------------------*/
+
+.section-title {
+    font-weight: 500;
+    font-size: 160%;
+    padding-left: .5em;
+}
+
+.section-title:not(:first-of-type) {
+    margin-top: 4.5em;
+}
+
+.aboutpage .section-title:not(:first-of-type) {
+    margin-top: 2.5em;
+}
+
+
+
+
+.im {
+    padding: 0 1em;
+}
+
+.im.fi img {
+    max-width: 400px;
+}
+
+.im.fi {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.ham {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    /*margin-left: 5em;*/
+}
+
+.image-cap span {
+    font-style: italic;
+    color: darkgray;
+}
+
+
+@media (min-width: 950px) {
+    .im.fi {
+        flex-flow: row nowrap;
+    }
+
+    .ham {
+        margin-left: 5em;
+    }
+}
+
+
+
+
+
+
+
+
+

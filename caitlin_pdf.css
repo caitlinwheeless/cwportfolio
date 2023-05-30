@@ -1,0 +1,192 @@
+
+
+.pdfobject-container {
+    display: none;
+    height: 50rem; 
+    max-width: 1200px;
+    border: 1rem solid rgba(0,0,0,.1); 
+    margin: 2em auto;
+    text-align: center;
+    opacity: 0;
+}
+
+
+#Keyword_caitlin {
+    margin: 2em auto;
+    text-align: center;
+    display: none;
+    opacity: 0;
+}
+
+.myiframe {
+    width: 100%;
+    height: 50rem; 
+    max-width: 1500px;
+}
+
+
+.intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 2em;
+    width: 75%;
+    margin: 3em auto 3em;
+}
+
+.intro.intro-misc {
+    width: auto;
+    max-width: 1280px;
+}
+
+.intro-content, .intro-content-misc {
+    flex-basis: 75%;
+}
+.intro-title {
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+.intro-click {
+    flex-basis: 25%;
+    max-width: 250px;
+    cursor: pointer;
+}
+
+
+/*======================SVG STUFF======================*/
+
+.svg-wrap {
+    height: 100%;
+    position: relative;
+    padding-left: 3em;
+}
+
+.svg-wrap svg {
+  position: relative;
+}
+
+.example svg {
+    max-height: 100px;
+}
+
+.example svg line {
+    stroke: #00C853;
+    stroke-width: 12;
+}
+
+.hidden {
+  display: none;
+}
+
+.open line.up {
+    stroke-dasharray: 205;
+    stroke-dashoffset: 500;
+    animation: up 1s linear forwards;
+}
+
+.close line.up {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: up 1s linear forwards;
+}
+
+@keyframes up {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.open line.down {
+    stroke-dasharray: 205;
+    stroke-dashoffset: 0;
+    animation: down 1s linear backwards;
+}
+
+@keyframes down {
+  from {
+    stroke-dashoffset: -400;
+  }
+}
+
+.close line.down {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+    animation: downx 1s linear backwards;
+}
+
+@keyframes downx {
+  from {
+    stroke-dashoffset: -500;
+  }
+}
+
+svg polygon {
+  fill: #00C853;
+  stroke: #00C853;
+  stroke-width: 1;
+}
+
+.close polygon {
+  opacity: 0;
+}
+
+.open polygon {
+  opacity: 1;
+  animation: fadein 2s ease-in;
+}
+
+@keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.open {
+  left: -1em;
+}
+
+.close {
+  left: 0;
+}
+
+
+
+/*
+@supports (-ms-flow-from: thingy) {  Edge only 
+    .jobtitle {
+        color: red;
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

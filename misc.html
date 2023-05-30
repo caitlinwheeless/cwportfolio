@@ -1,0 +1,117 @@
+
+<!Doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caitlin Wheeless Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css_caitlin.css" type="text/css" rel="stylesheet">
+    <link href="css_image.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>   
+
+
+</head>
+
+<body>
+    <header>
+        <div class="hometitle"><a href="caitlin.html">Caitlin Wheeless</a></div>
+        <div class="jobtitle"><a href="caitlin.html">Technical Writer</a></div>
+    </header>
+    <nav>
+        <div class="navwrap">
+            <div><a href="resume.html">CV</a></div>
+            <div class="dd-link"><span class="dd-arrow">Portfolio</span>
+                <div class="dd-p">
+                    <div>
+                        <ul>
+                            <li><a href="basic.html">Basic User</a></li>
+                            <li><a href="advanced.html">Advanced User</a></li>
+                            <li><a href="restructure.html">Content Structures</a></li>
+                            <li><a href="visual.html">Visual Aids</a></li>
+                            <li><a href="misc.html">Miscellaneous</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div><a href="about.html">About</a></div>
+        </div>
+    </nav>
+    <main>
+        <article>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Hardware Requirements Selection Tool</div>
+                    <div class="intro-text">
+                        <p>Before I built this tool, we were using a 36-page Word file to provide hardware specifications. When that information needed to be handed to a customer, engineers would have to manually edit the Word file as necessary.</p>
+                        <p>This selection tool serves two purposes: 1) to provide information in a user-friendly way, and 2) as a tool to generate professional, customized PDFs that can be delivered to customers.</p>
+                        <p>NOTE: In this demo version, all internal information, including product names, has been altered.</p>
+                        <p><b>TOOLS:</b> MindTouch, <a href="https://github.com/MrRio/jsPDF" target="_blank">jsPDF</a>, <a href="https://github.com/simonbengtsson/jsPDF-AutoTable" target="_blank">jsPDF-AutoTable</a>, and <a href="http://loudev.com/" target="_blank">multiselect.js</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="iframe_wrap">
+                <iframe class="caitlin-iframe" width="1280" height="628" src="https://www.youtube.com/embed/IxHB1lPzjOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Template Customization</div>
+                    <div class="intro-text">
+                        <p>This is a thorough, but very, very informal guide I put together for the writers on my team. I had created templates linked to their user IDs, which would allow them to create their own custom tools and CSS to use in our CMS.</p>
+                        <p>I have the PDF available here, but due to the formatting, it is more readable <a href="https://knowledge.spok.com/Spok_Knowledge_Admin_Resources/styleguide/sidetray/Customizing_the_My_Stuff_Section" target="_blank">on the live page</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="MyStuff"></div>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">PowerShell Helper Script</div>
+                    <div class="intro-text">
+                        <p>These are instructions on how to run a script I wrote. The script is for the other tech writers on my team, and its purpose is to help automate some localization tasks we had to complete at every release.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="PS"></div>
+
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Community Forum Support</div>
+                    <div class="intro-text">
+                        <p>I would often spend time in the customer forums to get a better sense of what our users were struggling with, and whether the documentation could assist. When possible, I would also provide direct support. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Forum"></div>
+
+            
+            
+            
+            
+            
+            
+                
+            
+        </article>
+    </main>
+
+</body> 
+
+<script>
+    PDFObject.embed("pdf/PowerShell.pdf", "#PS");
+    PDFObject.embed("pdf/Support.pdf", "#Forum");
+    PDFObject.embed("pdf/MyStuff.pdf", "#MyStuff");
+    
+    
+</script>
+
+</html>

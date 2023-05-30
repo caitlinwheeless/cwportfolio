@@ -1,0 +1,139 @@
+
+<!Doctype html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Caitlin Wheeless Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css_caitlin.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>   
+
+
+</head>
+
+<body>
+    <header>
+        <div class="hometitle"><a href="caitlin.html">Caitlin Wheeless</a></div>
+        <div class="jobtitle"><a href="caitlin.html">Technical Writer</a></div>
+    </header>
+    <nav>
+        <div class="navwrap">
+            <div><a href="resume.html">CV</a></div>
+            <div class="dd-link"><span class="dd-arrow">Portfolio</span>
+                <div class="dd-p">
+                    <div>
+                        <ul>
+                            <li><a href="basic.html">Basic User</a></li>
+                            <li><a href="advanced.html">Advanced User</a></li>
+                            <li><a href="restructure.html">Content Structures</a></li>
+                            <li><a href="visual.html">Visual Aids</a></li>
+                            <li><a href="misc.html">Miscellaneous</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div><a href="about.html">About</a></div>
+        </div>
+    </nav>
+    <main>
+        <article>
+
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Using Python Requests with the PacketFabric API</div>
+                    <div class="intro-text">
+                        <p>Depending on your background, this article could be written for beginner or advanced users. It leads the user through the basic steps of using Python to execute API requests.</p>
+                        <p><b>TOOLS:</b> Markdown, Hugo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="python_requests" class="iframe_wrap">
+                
+                <iframe class="myiframe" src="https://docs.packetfabric.com/api/examples/python/"></iframe>
+            
+            </div>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">BGP Reference</div>
+                    <div class="intro-text">
+                        <p>Rather than another procedure, this is a BGP reference page. There are a lot of variables that go into each cloud service provider's BGP rules, and this served as a reference point for customers and internal users.</p>
+                        <p><b>TOOLS:</b> Markdown, Hugo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="python_requests" class="iframe_wrap">
+                
+                <iframe class="myiframe" src="https://docs.packetfabric.com/cr/bgp/reference/"></iframe>
+            
+            </div>
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">HAProxy Installation</div>
+                    <div class="intro-text">
+                        <p>One of our remote engineers created a utility to streamline HAProxy installation and configuration. We collaborated to create this page.</p>
+                        <p>Note that at Spok, much of the work was done in the field - meaning that install techs would often be taking PDF copies on site. The empty tables at the beginning were meant to be used as a checklist when printed out.</p>
+                        <p><b>TOOLS:</b> MindTouch</p>
+                    </div>
+                </div>
+            </div>
+            <div id="HAProxy"></div>
+
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">Cross-Site Request Forgery Defense</div>
+                    <div class="intro-text">
+                        <p>A brief background on CSRF and how our product protects against it. This should be detailed enough to be relevant to site administrators, but not so specific that it could provide useful information to a would-be attacker.</p>
+                        <p><b>TOOLS:</b> Arbortext DITA</p>
+                    </div>
+                </div>
+            </div>
+            <div id="CSRF"></div>
+
+
+            <div class="intro">
+                <div class="intro-content">
+                    <div class="intro-title">API Parameters</div>
+                    <div class="intro-text">
+                        <p>A thorough description of two API parameters.</p>
+                        <p><b>TOOLS:</b> Arbortext DITA</p>
+                    </div>
+                </div>
+            </div>
+            <div id="API"></div>
+            
+        
+            
+            
+            
+
+            
+
+            
+            
+       
+            
+        </article>
+    </main>
+
+</body> 
+
+<script>
+    PDFObject.embed("pdf/CSRF.pdf", "#CSRF");
+    PDFObject.embed("pdf/APIDocs.pdf", "#API");
+    PDFObject.embed("pdf/HAProxyInstallation.pdf", "#HAProxy");
+    
+    
+</script>
+
+</html>

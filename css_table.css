@@ -1,0 +1,107 @@
+table {
+    border: none;
+    table-layout: auto;
+}
+
+table td {
+    padding: .75em;
+    vertical-align: top;
+}
+
+table td:nth-child(1) {
+    width: 20%;
+}
+
+table td:nth-child(2) {
+    padding: .75em 1.5em;
+    width: 65%;
+}
+
+table td:nth-child(3) {
+    text-align: right;
+    width: 15%;
+}
+
+.two-c {
+    margin-top: .75em;
+}
+
+.two-c td p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table.collapse, table.collapse tbody {
+    display: block;
+}
+
+table.collapse td {
+    padding: 0 .75em;
+}
+
+table.collapse td:nth-child(1) {
+    width: 100%;
+}
+
+table.collapse td:nth-child(2) {
+    text-align: left;
+    order: 3;
+    width: 100%;
+    padding: .75em;
+}
+
+table.collapse td:nth-child(3) {
+    text-align: left;
+    order: 2;
+    width: 100%;
+}
+
+table.collapse td:nth-child(3) p {
+    margin: 0;
+}
+
+
+table.collapse tr {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 3em;
+}
+
+
+
+@media (min-width: 700px) {
+    table.collapse {
+        display: table;
+    }
+    table.education {
+        width: 100%;
+    }
+    table.collapse tbody {
+        display: table-row-group;
+    }
+    table.collapse tr {
+        display: table-row;
+    }
+    
+    table.collapse td {
+        padding: .75em;
+    }
+    
+    table.collapse td:nth-child(3) {
+        text-align: right;
+        width: 15%;
+    }
+    table.collapse td:nth-child(3) p {
+        margin: 1em 0;
+    }
+    table.collapse td:nth-child(1) {
+        width: 20%;
+    }
+    table.collapse td:nth-child(2) {
+        width: 65%;
+        padding: .75em 1.5em;
+    }
+    
+}
+
+

@@ -1,0 +1,76 @@
+.image-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+.image-wrap:first-of-type {
+    margin-bottom: 5em;
+}
+
+.image-wrap>div:first-of-type {
+    margin-right: 0;
+}
+
+.image-wrap.singles>div:first-of-type {
+    margin-right: 0;
+}
+
+.image-wrap>div {
+    max-width: 1200px;
+}
+
+.img-title {
+    font-size: 180%;
+    margin: 0 auto 1em;
+    /*color: #00C853;*/
+    text-transform: uppercase;
+}
+
+.image-wrap img {
+    transition: box-shadow 1s ease-in;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    max-width: 100%;
+}
+
+.image-wrap img:hover {
+    box-shadow: 0 14px 18px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    transition: box-shadow 1s ease-out;  
+}
+
+.intro-content {
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+   .intro-content {
+        margin: 1em 3.5em 1em;
+    } 
+}
+
+.intro-content-rs {
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+   .intro-content-rs {
+        margin: 3em auto;
+       width: 75%;
+    } 
+}
+
+@media (min-width: 1180px) {
+   .image-wrap>div:first-of-type {
+        margin-right: 3em;
+    } 
+}
+
+div.iframe-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.misc-caption {
+    max-width: 1280px;
+}
