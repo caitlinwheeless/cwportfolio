@@ -246,11 +246,12 @@ nav {
 
 @media (min-width: 950px) {
     .im.fi {
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
     }
 
     .ham {
         margin-left: 5em;
+        margin-top: 5em;
     }
 }
 
