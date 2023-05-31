@@ -111,4 +111,21 @@
 
 
 
+.about-wrap {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
 
+.about-title {
+  font-weight: 600;
+}
+
+.about-content {
+  padding-top: 5.5em;
+  font-size: 14px;
+}
+
+.about-content p {
+  margin: 6px 0;
+}
