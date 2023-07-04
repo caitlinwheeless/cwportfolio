@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', serif;
+    font-family: 'Inter', sui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-size: 16px;
     background-color: #FCFBFB;
     margin: 0;
@@ -12,11 +12,15 @@ article {
 }
 
 a:hover {
-    color: #0DD0CC 
+    color: #0DD0CC;
+    color: #FF781F; 
+    color: rgb(0, 0, 238);
 }
 
 p a {
-    color: #0DD0CC;
+   /* color: #0DD0CC;
+    color: #FF781F; */
+    color: rgb(0, 0, 238);
     text-decoration: none;
 }
 
@@ -25,13 +29,13 @@ p a:hover {
 }
 
 .here {
-    box-shadow: inset 0px -3px 0px 0px #0DD0CC;
+    box-shadow: inset 0px -3px 0px 0px black;
 }
 
 /*---------Header--------------------*/
 
 header {
-    background-image: url("images/header.svg");
+    /*background-image: url("images/header.svg");*/
     background-repeat: no-repeat;
     background-position: center;
     height: 150px;
@@ -46,12 +50,12 @@ header {
 
 .hometitle {
     font-size: 3em;
-    color: white;
+    /*color: white;*/
 }
 
 .jobtitle {
     font-size: 2.5em;
-    color: white;
+    /*color: white;*/
 }
 
 .hometitle a, .jobtitle a {
