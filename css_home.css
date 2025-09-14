@@ -8,7 +8,7 @@
 
 @media (min-width: 670px) {
     .homewrap {
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     
 }
