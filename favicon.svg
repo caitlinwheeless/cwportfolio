@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="31" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+
+  <!-- Body peeking up from bottom -->
+  <ellipse cx="32" cy="52" rx="20" ry="14" fill="#f0b87a"/>
+  <ellipse cx="32" cy="54" rx="14" ry="9" fill="#fde8c9"/>
+
+  <!-- Head -->
+  <ellipse cx="32" cy="32" rx="18" ry="17" fill="#f0b87a"/>
+
+  <!-- Ears -->
+  <circle cx="18" cy="19" r="7" fill="#f0b87a"/>
+  <circle cx="18" cy="19" r="4.5" fill="#f2a6a6"/>
+  <circle cx="46" cy="19" r="7" fill="#f0b87a"/>
+  <circle cx="46" cy="19" r="4.5" fill="#f2a6a6"/>
+
+  <!-- Cheek pouches -->
+  <ellipse cx="19" cy="36" rx="7" ry="6" fill="#f0b87a"/>
+  <ellipse cx="45" cy="36" rx="7" ry="6" fill="#f0b87a"/>
+  <ellipse cx="19" cy="36" rx="5.5" ry="4.5" fill="#f7b8a0" opacity="0.5"/>
+  <ellipse cx="45" cy="36" rx="5.5" ry="4.5" fill="#f7b8a0" opacity="0.5"/>
+
+  <!-- Eyes -->
+  <circle cx="25" cy="30" r="4.5" fill="#1c1917"/>
+  <circle cx="26.5" cy="28.5" r="1.8" fill="#fff"/>
+  <circle cx="39" cy="30" r="4.5" fill="#1c1917"/>
+  <circle cx="40.5" cy="28.5" r="1.8" fill="#fff"/>
+
+  <!-- Nose -->
+  <ellipse cx="32" cy="37" rx="3" ry="2.2" fill="#d4826a"/>
+
+  <!-- Mouth -->
+  <path d="M29 39.5 Q32 43 35 39.5" fill="none" stroke="#d4826a" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Buck teeth -->
+  <rect x="30" y="39.5" width="2" height="2.5" rx="0.6" fill="#fff" stroke="#e8d5c0" stroke-width="0.3"/>
+  <rect x="32.5" y="39.5" width="2" height="2.5" rx="0.6" fill="#fff" stroke="#e8d5c0" stroke-width="0.3"/>
+
+  <!-- Whiskers -->
+  <line x1="8" y1="34" x2="19" y2="37" stroke="#d4a574" stroke-width="0.7" opacity="0.5"/>
+  <line x1="7" y1="38" x2="18" y2="38" stroke="#d4a574" stroke-width="0.7" opacity="0.5"/>
+  <line x1="56" y1="34" x2="45" y2="37" stroke="#d4a574" stroke-width="0.7" opacity="0.5"/>
+  <line x1="57" y1="38" x2="46" y2="38" stroke="#d4a574" stroke-width="0.7" opacity="0.5"/>
+</svg>
