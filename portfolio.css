@@ -211,7 +211,15 @@ nav:has(.nav-name) {
   animation: fadeUp 0.7s 0.35s forwards;
 }
 
-.hero-title .em-teal { color: var(--teal); font-style: italic; font-weight: 400; }
+.hero-title .hero-hash {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 0.75em;
+  letter-spacing: 0;
+  color: var(--teal);
+  margin-right: 0.3em;
+  vertical-align: 0.1em;
+}
 
 .hero-desc {
   font-size: 1.1rem;
