@@ -886,6 +886,12 @@ nav a:hover {
   max-width: 720px;
 }
 
+/* Wide diagrams (e.g. agreement flows) need the full article width to stay legible */
+.image-wrap.singles.wide {
+  max-width: none;
+  gap: 2rem;
+}
+
 .img-title {
   font-family: var(--font-head);
   font-size: 0.75rem;

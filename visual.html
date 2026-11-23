@@ -30,6 +30,35 @@
 
             <div class="intro">
                 <div class="intro-content">
+                    <div class="intro-title">Pairwise vs. Consensus Agreement</div>
+                    <div class="intro-text">
+                        <p>A set of diagrams to show how inter-annotator agreement is calculated for non-categorical labels (bounding boxes and text spans). Each one follows the same three annotators from their labels, through per-pair scores, to the final task agreement, so readers can compare the two methods side by side.</p>
+                        <p>See it in context: <a href="https://docs.humansignal.com/guide/stats" target="_blank">Task agreement and how it is calculated</a></p>
+                        <p><b>TOOLS:</b> Figma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-wrap singles wide">
+                <div>
+                    <div class="img-title">Pairwise &mdash; Bounding boxes</div>
+                    <img alt="Pairwise agreement for bounding boxes: three annotators draw overlapping boxes around an opossum. Each pair is scored by IoU (53%, 24%, and 45%), and the scores are averaged into a task agreement of 40.67%." src="images/pairwise-non-categorical-bbox.png">
+                </div>
+                <div>
+                    <div class="img-title">Consensus &mdash; Bounding boxes</div>
+                    <img alt="Consensus agreement for bounding boxes: the same IoU scores are compared to a 50% threshold. Annotators 1 and 2 agree and annotator 3 disagrees, so task agreement is 2 of 3, or 66.67%." src="images/consensus-non-categorical-bbox.png">
+                </div>
+                <div>
+                    <div class="img-title">Pairwise &mdash; Text spans</div>
+                    <img alt="Pairwise agreement for text spans: three annotators highlight different parts of the phrase Excellent tool. Pair scores of 29%, 0%, and 0% average to a task agreement of 9.66%." src="images/pairwise-non-categorical-text.png">
+                </div>
+                <div>
+                    <div class="img-title">Consensus &mdash; Text spans</div>
+                    <img alt="Consensus agreement for text spans: the same span scores are compared to a 25% threshold. Annotators 1 and 2 agree and annotator 3 disagrees, so task agreement is 2 of 3, or 66.67%." src="images/consensus-non-categorical-text.png">
+                </div>
+            </div>
+
+            <div class="intro">
+                <div class="intro-content">
                     <div class="intro-title">Prompts Demo</div>
                     <div class="intro-text">
                         <p>A short video to demonstrate how to use the Prompts tool on the Label Studio Enterprise platform.</p>
@@ -58,7 +87,7 @@
             <div class="image-wrap singles">
                 <div>
                     <video src="https://docs.humansignal.com/images/releases/timeline.mp4" width="100%" controls />
-                </div>          
+                </div>
             </div>
 
             <div class="intro">
